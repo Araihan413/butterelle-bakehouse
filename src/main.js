@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import './assets/style/main.css'
+import '@fontsource-variable/montserrat'
+import '@fontsource-variable/playfair-display'
 
 import App from './App.vue'
 import router from './router'

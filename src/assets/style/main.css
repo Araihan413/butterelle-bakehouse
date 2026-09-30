@@ -1,1 +1,31 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: var(--font-montserrat);
+}
+
+@theme {
+  /* Palette Butterelle */
+  --color-butterelle-primary: #843c24; /* Tombol Utama / WhatsApp / Badge Urut */
+  --color-butterelle-terracotta: #c87a5e; /* Hover State / Aksen / Border Aktif */
+  --color-butterelle-gold: #f5d78e; /* Best Seller / Star Rating */
+  --color-butterelle-butter-light: #fff3d4; /* Info Callout Notice Box */
+  --color-butterelle-canvas: #fff8f5; /* Background Canvas Utama */
+  --color-butterelle-surface: #ffffff; /* Kartu Produk & Testimoni */
+  --color-butterelle-peach: #fff1ea; /* Selected Card / Trust Bar */
+  --color-butterelle-tint: #fceee6; /* Footer & Section Tint */
+  --color-butterelle-border: #efe3da; /* Default Card & Divider Border */
+  --color-butterelle-border-warm: #f1ddd0; /* Highlight Card Border */
+  --color-butterelle-espresso: #2d1b14; /* Heading H1, H2, H3 & Harga */
+  --color-butterelle-roasted: #5c4538; /* Body Text & Paragraf */
+  --color-butterelle-muted: #9e887b; /* Sub-label & Meta Text */
+}
+
+@theme {
+  --font-montserrat: 'Montserrat Variable', sans-serif;
+  --font-playfair-display: 'Playfair Display Variable', serif;
+}
